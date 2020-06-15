@@ -14,4 +14,6 @@ class PPM
         PPM(int width, int height, const char * name);
         void drawPixel(int x, int y, int * rgb);
         void writeImage();
+        int getWidth() { return m_width; };
+        int getHeight() { return m_height; };
 };
